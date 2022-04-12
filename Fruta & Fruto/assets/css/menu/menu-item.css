@@ -1,0 +1,7 @@
+.menu__item{
+    list-style: none; /*Retirar as bolinhas da lista*/
+}
+.menu__item:last-child .menu-link{ /*zera o espaço do ultimo navegador*/
+    margin-right: 0; 
+
+}

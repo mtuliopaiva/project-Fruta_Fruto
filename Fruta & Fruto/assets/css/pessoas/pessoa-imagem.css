@@ -1,0 +1,26 @@
+.pessoa__imagem{
+    height: 300px;
+    margin: 0 auto; /*auto é para centralizar a imagem*/
+    width: 300px;
+    background-repeat: no-repeat; /*fundo nao deve repetir*/
+    background-size: cover; /*Imagem deve cobrir todo o nosso fundo*/
+    background-position: center; /*Centralizar nosso background*/
+    border-radius: 100%; /*Imagens redondas*/
+}
+
+/*A imagem foi colocada no CSS pois ele não faz parte do conteudo, é apenas uma estilização*/
+.pessoa__imagem--roberta{ /*Classe medoficadora - metologia BEM*/
+    background-image: url('../../img/pessoas/roberta.jpg'); /*../volta 1x../volta 2x*/
+}
+.pessoa__imagem--marcela{
+    background-image: url('../../img/pessoas/marcela.jpg');
+}
+.pessoa__imagem--andreia{
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
+@media screen and (max-width:414px) {
+    .pessoa__imagem{
+        flex-direction: column;
+    }
+    
+}

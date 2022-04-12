@@ -1,0 +1,13 @@
+.contato{
+    background: #e5e5e5; /*Cinza pouco escuro para fundo da tela*/ 
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 414px) { /*Visando celulares*/
+    .contato__box--conteudo{
+        flex-direction: column;
+    }
+}

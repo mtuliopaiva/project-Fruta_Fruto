@@ -1,0 +1,35 @@
+.button-scroll{
+    padding: 1.125rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 90%;
+    margin-top: -2.5em;
+    display: flex;
+    justify-content: center;
+    background: #8d0606;
+    color: #fdfdfd;
+    cursor: pointer;
+    
+}
+@media screen and (max-width: 414px) { /*Visando celulares*/
+    .button-scroll{
+        padding: 1.125rem;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        position: fixed;
+        right: 5%;
+        top: 90%;
+        margin-top: -2.5em;
+        display: flex;
+        justify-content: center;
+        background: #8d0606;
+        color: #fdfdfd;
+        cursor: pointer;
+    }
+}

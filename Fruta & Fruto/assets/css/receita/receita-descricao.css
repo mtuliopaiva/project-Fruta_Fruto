@@ -1,0 +1,6 @@
+.receita__descricao{
+    font-size: 1.1875rem;
+    line-height:1.5; /*Espaçamento entre linhas*/
+    text-align: justify; /*Texto justifiicado*/
+ 
+}

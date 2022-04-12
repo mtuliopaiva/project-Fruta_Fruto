@@ -1,0 +1,37 @@
+.rodape{
+    background: #bfbfbf; /*Cor do fundo*/
+    color: #fdfdfd; /*Cor do texto*/
+    text-align: left;
+    padding: 1.5625rem 1.275rem;
+}
+h3{
+  font-weight: 100;
+  font-size: 1.75rem;
+  color: #595959;
+}
+.fa {
+    padding: 1.125rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover{
+    opacity: 0.6;
+    transition: all .5s ease-in-out;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #0A66C2;
+    color: white;
+  }
+  .fa-instagram {
+    background: #000000;
+    color: white;
+  }

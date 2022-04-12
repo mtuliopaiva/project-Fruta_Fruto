@@ -1,0 +1,4 @@
+.contato__conteudo{
+    display: flex;
+    justify-content: space-between;
+}

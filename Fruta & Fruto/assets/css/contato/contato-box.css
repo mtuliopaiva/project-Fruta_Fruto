@@ -1,0 +1,32 @@
+.contato__box{
+    display: flex;
+    flex-direction: column;
+   
+}
+.input__padrao{
+    width: auto;
+    margin: 1rem 2rem 0.1rem 1rem;
+}
+#nome::placeholder, #email::placeholder, #fone::placeholder, #mensagem::placeholder{
+    font-weight: bold;
+    color: #000000;
+}
+textarea {
+    resize: none;
+}
+.enviar{
+        background: #8d0606;
+        border: none;
+        border-radius: 5px;
+        color: #fdfdfd;
+        padding: 1rem;
+        border-radius: 5px;
+        width: 30%;
+        margin:0.1rem 0 1rem 7rem;
+}
+.enviar:hover{
+        background: #620404;
+        cursor: pointer;
+        transition: all .1s ease-in-out; /*Animação começa devagar e para devagar*/
+    
+}

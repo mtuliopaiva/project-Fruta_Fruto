@@ -1,0 +1,23 @@
+.receitas {
+    background: #e5e5e5; /*Cinza pouco escuro para fundo da tela*/
+    display: flex; /*Elementos alinhados um ao lado do outro*/
+    flex-wrap: wrap; /*Quebra automaticamente os elementos de linhas e colunas */
+    padding:  5rem 0 0 5rem;
+}
+@media screen and (min-width: 0) { /*Visando celulares*/
+    .receitas {
+        padding:  5rem 0 0 1rem;
+    }
+}
+@media screen and (min-width: 768px) { /*Visando tablets*/
+    .receitas {
+        padding:  5rem 0 0 2.5rem;
+
+
+    }
+}
+@media screen and (min-width: 992px) { /*Visando computadores desktop*/
+    .receitas {
+        padding:  5rem 0 0 5rem;
+    }
+}
